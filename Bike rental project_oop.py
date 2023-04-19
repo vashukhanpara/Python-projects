@@ -15,7 +15,6 @@ class Bikeshop:
             print('    Total price of your rent is', q*100)
             print('    Now we have stock of bikes are', self.stock)
 
-
 n = 0
 while n < 10:
     obj = Bikeshop(100)
