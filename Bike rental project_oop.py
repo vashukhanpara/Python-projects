@@ -39,5 +39,3 @@ press 3 exit
         print('invalid input')
 
     n += 1
-
-
