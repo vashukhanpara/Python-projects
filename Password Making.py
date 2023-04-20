@@ -12,7 +12,7 @@ while user_try<10:
 
     else:
         print('you won')
-        user_try=user_try+10#ahiya break use karie to pan chale 
+        user_try=user_try+10
        
 
 
