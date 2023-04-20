@@ -6,7 +6,7 @@ count=0
 def mistake(par_test, user_test):
     error = 0
     for i in range(len(par_test)):
-        try:  # ahi try and except no use etla mate karyo 6 k jo apde userinput ma 5 j words lakhie to error ave kem k etle index na thai sake
+        try:  
             if (par_test[i] != user_test[i]):
                 error = error+1
         except:
@@ -16,7 +16,7 @@ def mistake(par_test, user_test):
 
 def speed_time(s_time, e_time, user_paragraph):
     time_delay = round(e_time - s_time, 3)
-    # round() na use thi number round figer thai jai
+    
     time_r = round(time_delay, 2)
     speed = len(user_paragraph)/time_r
 
@@ -38,7 +38,7 @@ while count<=3:
         test_input = input()
         time2 = time()
         
-        print('speed : ', speed_time(time1, time2, test_input), 'words per second')#aama words per second ahiya na lakhine def function ma return ni hare lakhie to pan chale
+        print('speed : ', speed_time(time1, time2, test_input), 'words per second')
         print('error : ', mistake(test1, test_input))
 
         count=count+1
