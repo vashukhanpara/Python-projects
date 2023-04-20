@@ -37,7 +37,7 @@ clock.config(bg='yellow')
 
 
 #HOUR(1ST ROW)
-lab_hr=Label(clock,text='00' , font=('times new roman',60,'bold'),bg='red',fg='white')#clock lakhvu jaruri j 6    ,    fg etle color of text tema color nu name pan lakhi sakie and color code pan lakhi sakie
+lab_hr=Label(clock,text='00' , font=('times new roman',60,'bold'),bg='red',fg='white')
 lab_hr.place(x=120,y=40,height=110,width=100)#x refers to verticle position and y refers to horizontal position 
 #(2ND ROW)
 lab_hr_txt=Label(clock,text='HOUR' , font=('times new roman',25,'bold'),bg='red',fg='white')#clock lakhvu jaruri j 6
