@@ -59,4 +59,3 @@ if human_wins<com_wins:
 if human_wins==com_wins:
     print('the score is same')
 
-# ama special character ne lakhi e to 'not valid input' evu ave e karvanu baki 6
